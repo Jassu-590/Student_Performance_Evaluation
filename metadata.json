@@ -1,0 +1,8 @@
+{
+  "name": "Student Performance Evaluation System",
+  "description": "College faculty dashboard for managing student academic data in Google Sheets, AI-powered performance evaluation with Gemini, and parent reporting via Gmail.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

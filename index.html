@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Performance Evaluation System</title>
+    <meta name="description" content="College faculty dashboard for managing student academic data in Google Sheets, AI-powered performance evaluation with Gemini, and parent reporting via Gmail." />
+    <meta property="og:title" content="Student Performance Evaluation System" />
+    <meta property="og:description" content="College faculty dashboard for managing student academic data in Google Sheets, AI-powered performance evaluation with Gemini, and parent reporting via Gmail." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Suppress Vite client dev WebSocket rejection in AI Studio preview iframe where HMR is disabled
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event.reason && (String(event.reason.message || '')).includes('WebSocket')) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
